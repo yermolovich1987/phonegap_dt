@@ -25,5 +25,22 @@ export PATH=${PATH}:${CATALINA_HOME}/platforms
 7) Reload .bashrc file in Linux:
 source ~/.bashrc
 
-8) Configure Android SDK via Manager as described here: http://frontendmatters.com/getting-started-mobile-app-development-phonegap-yeoman-angularjs-ionic/
+8) Configure Android SDK via Manager as described here: 
+http://frontendmatters.com/getting-started-mobile-app-development-phonegap-yeoman-angularjs-ionic/
+
+Usefull commands:
+android - runs Android SDK Manager
+android avd - runds Android Virtual Device manager
+phonegap run android - runs application on android platform
+phonegap emulate android - emulates application on android platform
+
+
+9) We will use Yeoman to help with the scaffolding, Grunt to help with automated task, and Bower to take care of front-end packages.
+To install them use command:
+sudo npm install -g yo bower grunt
+
+10) If you want to scaffold AngularJS applications via Yeoman you need to install generator:
+sudo npm install -g generator-angular
+
+
 
