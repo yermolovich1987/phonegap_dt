@@ -22,3 +22,8 @@ export ANDROID_HOME=/home/dimas/android-sdk-linux
 export PATH=${PATH}:${CATALINA_HOME}/tools
 export PATH=${PATH}:${CATALINA_HOME}/platforms
 
+7) Reload .bashrc file in Linux:
+source ~/.bashrc
+
+8) Configure Android SDK via Manager as described here: http://frontendmatters.com/getting-started-mobile-app-development-phonegap-yeoman-angularjs-ionic/
+
