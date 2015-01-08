@@ -7,7 +7,8 @@ To work with this project you need to:
 Detailed instruction can be found here https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#windows.
 
 2) Install PhoneGap.
-sudo npm install -g phonegap
+For Linux: sudo npm install -g phonegap 
+For Windows: C:\>npm install -g phonegap
 
 3) Install android SDK.
 
